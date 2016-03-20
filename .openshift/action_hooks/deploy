@@ -10,7 +10,7 @@ if [ ! -d $OPENSHIFT_DATA_DIR/jdk1.8.0_65 ]
                 rm -f *.tar.gz
 fi
 
-if [ ! -d $OPENSHIFT_DATA_DIR/gradle-2.7 ]
+if [ ! -d $OPENSHIFT_DATA_DIR/gradle-2.12 ]
         then
                 cd $OPENSHIFT_DATA_DIR
                 wget https://services.gradle.org/distributions/gradle-2.12-bin.zip
